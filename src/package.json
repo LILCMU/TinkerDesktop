@@ -1,7 +1,7 @@
 {
   "main": "app.html",
   "name": "Tinker",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "app-id": "com.gogo.tinker",
   "chromium-args": "--disable-setuid-sandbox",
   "window": {
@@ -24,9 +24,9 @@
   },
   "manifestUrl": "https://raw.githubusercontent.com/LILCMU/TinkerDesktop/master/src/package.json",
   "packages": {
-    "osx64": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.1.1/TinkerSetup.dmg",
-    "win32": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.1.1/TinkerSetup.exe",
-    "linux32": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.1.1/TinkerSetup_linux32.deb",
-    "linux64": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.1.1/TinkerSetup_linux64.deb"
+    "osx64": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.2.0/TinkerSetup.dmg",
+    "win32": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.2.0/TinkerSetup.exe",
+    "linux32": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.2.0/TinkerSetup_linux32.deb",
+    "linux64": "https://github.com/LILCMU/TinkerDesktop/releases/download/v0.2.0/TinkerSetup_linux64.deb"
   }
 }

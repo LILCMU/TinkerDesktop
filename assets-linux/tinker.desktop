@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Starter
-Icon=starter
-Exec=/opt/starter/Starter
-Comment=Starter
+Name=Tinker
+Icon=tinker
+Exec=/opt/tinker/Tinker
+Comment=Tinker
 Categories=GNOME;GTK;Development;Documentation;
 Terminal=false

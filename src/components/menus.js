@@ -57,7 +57,7 @@ module.exports = {
         settings.launchOnStartup = this.checked;
 
         var launcher = new AutoLaunch({
-          name: 'Starter',
+          name: 'Tinker',
           isHidden: true // hidden on launch - only works on a mac atm
         });
 
@@ -141,7 +141,7 @@ module.exports = {
       type: 'menubar'
     });
 
-    menu.createMacBuiltin('Starter');
+    menu.createMacBuiltin('Tinker');
     var submenu = menu.items[0].submenu;
 
     submenu.insert(new gui.MenuItem({
