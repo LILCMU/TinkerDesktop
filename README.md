@@ -1,4 +1,4 @@
 # Tinker
+A desktop version of Tinker, A blocks visual programming language for the GoGo Board.
 
-The latest version available at
-https://github.com/LILCMU/TinkerDesktop/releases/latest
+The latest version available at [Latest release page](https://github.com/LILCMU/TinkerDesktop/releases/latest)
