@@ -7,8 +7,8 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{F6A72CC2-37EE-4D97-BBEF-DEE8D17CA4D4}
 AppName=Tinker
-AppVersion=0.2.38
-;AppVerName=Tinker 0.2.38
+AppVersion=0.2.0
+;AppVerName=Tinker 0.2.0
 AppPublisher=Learning Inventions Laboratory
 AppPublisherURL=https://learninginventions.org/
 AppSupportURL=https://learninginventions.org/
@@ -16,9 +16,9 @@ AppUpdatesURL=https://learninginventions.org/
 DefaultDirName={pf}\Tinker
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-OutputDir=..\dist
-OutputBaseFilename=TinkerSetup
-SetupIconFile=..\assets-windows\icon.ico
+OutputDir=C:\Users\Computer\Desktop\TinkerDesktop\TinkerDesktop\dist
+OutputBaseFilename=TinkerSetup 0.2.0
+SetupIconFile=C:\Users\Computer\Desktop\TinkerDesktop\TinkerDesktop\assets-windows\icon.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -26,8 +26,8 @@ SolidCompression=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "..\build\Tinker\win32\Tinker.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\build\Tinker\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Computer\Desktop\TinkerDesktop\TinkerDesktop\build\Tinker\win32\Tinker.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Computer\Desktop\TinkerDesktop\TinkerDesktop\build\Tinker\win32\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
